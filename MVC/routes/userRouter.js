@@ -8,7 +8,6 @@ import {
 
 const router = express.Router();
 
-// ✅ always start with "/"
 router.get("/users", getuser);
 router.post("/users", postUser);
 router.delete("/users/:id", deleteUser);
